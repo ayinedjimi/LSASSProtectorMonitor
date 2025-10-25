@@ -114,6 +114,10 @@ SourceProcessId: <PID>
 ```
 
 
+# 🚀 Télécharger Sysmon depuis Sysinternals
+
+# 🚀 Installer avec configuration standard
+
 ## Compilation
 
 ### Prérequis
@@ -136,10 +140,6 @@ Le script :
 cl.exe /EHsc /O2 /W3 /std:c++17 /D UNICODE /D _UNICODE LSASSProtectorMonitor.cpp /link psapi.lib wevtapi.lib comctl32.lib /OUT:LSASSProtectorMonitor.exe
 ```
 
-
-# 🚀 Télécharger Sysmon depuis Sysinternals
-
-# 🚀 Installer avec configuration standard
 
 ## 🚀 Utilisation
 
@@ -215,6 +215,12 @@ Format des logs :
 - **Outils de monitoring** : Solutions EDR peuvent accéder à LSASS
 
 
+# 🚀 Activer Credential Guard via GPO
+
+# 🚀 Activer RunAsPPL
+
+# 🚀 Bloquer vol de credentials depuis LSASS
+
 ## 🚀 Cas d'usage
 
 ### 1. Détection d'attaque Pass-the-Hash
@@ -250,12 +256,6 @@ Surveillance continue des environnements sensibles (Domain Controllers, serveurs
 4. Baseline de sécurité établie
 ```
 
-
-# 🚀 Activer Credential Guard via GPO
-
-# 🚀 Activer RunAsPPL
-
-# 🚀 Bloquer vol de credentials depuis LSASS
 
 ## Défenses complémentaires
 
@@ -350,6 +350,14 @@ Pour toute question ou assistance technique.
 **Date** : 2025-10-20
 **Licence** : Usage interne Ayi NEDJIMI Consultants
 
+
+- --
+
+<div align="center">
+
+**⭐ Si ce projet vous plaît, n'oubliez pas de lui donner une étoile ! ⭐**
+
+</div>
 
 ---
 
