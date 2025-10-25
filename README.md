@@ -81,6 +81,10 @@ SourceProcessId: <PID>
 ```
 
 
+# 🚀 Télécharger Sysmon depuis Sysinternals
+
+# 🚀 Installer avec configuration standard
+
 ## Architecture technique
 
 ### Composants
@@ -113,10 +117,6 @@ SourceProcessId: <PID>
    d. Générer alerte CRITIQUE
 ```
 
-
-# 🚀 Télécharger Sysmon depuis Sysinternals
-
-# 🚀 Installer avec configuration standard
 
 ## Compilation
 
@@ -189,6 +189,12 @@ Format des logs :
 ```
 
 
+# 🚀 Activer Credential Guard via GPO
+
+# 🚀 Activer RunAsPPL
+
+# 🚀 Bloquer vol de credentials depuis LSASS
+
 ## Indicateurs de compromission
 
 ### Alertes critiques
@@ -214,12 +220,6 @@ Format des logs :
 - **SQLDumper.exe** : Peut être utilisé légitimement par DBA, mais suspect sur workstation
 - **Outils de monitoring** : Solutions EDR peuvent accéder à LSASS
 
-
-# 🚀 Activer Credential Guard via GPO
-
-# 🚀 Activer RunAsPPL
-
-# 🚀 Bloquer vol de credentials depuis LSASS
 
 ## 🚀 Cas d'usage
 
@@ -350,6 +350,14 @@ Pour toute question ou assistance technique.
 **Date** : 2025-10-20
 **Licence** : Usage interne Ayi NEDJIMI Consultants
 
+
+- --
+
+<div align="center">
+
+**⭐ Si ce projet vous plaît, n'oubliez pas de lui donner une étoile ! ⭐**
+
+</div>
 
 - --
 
