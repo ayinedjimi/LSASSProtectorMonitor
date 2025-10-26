@@ -57,6 +57,10 @@ Pour chaque activité suspecte détectée :
 - Format : Horodatage;Processus;PID;Type;Utilisateur;Alertes
 
 
+# 🚀 Télécharger Sysmon depuis Sysinternals
+
+# 🚀 Installer avec configuration standard
+
 ## Techniques de détection
 
 ### Détection par nom de processus
@@ -80,10 +84,6 @@ SourceImage: <Processus attaquant>
 SourceProcessId: <PID>
 ```
 
-
-# 🚀 Télécharger Sysmon depuis Sysinternals
-
-# 🚀 Installer avec configuration standard
 
 ## Architecture technique
 
@@ -171,6 +171,12 @@ Configuration Sysmon pour LSASS :
 ```
 
 
+# 🚀 Activer Credential Guard via GPO
+
+# 🚀 Activer RunAsPPL
+
+# 🚀 Bloquer vol de credentials depuis LSASS
+
 ## Logging
 
 Tous les événements sont enregistrés dans :
@@ -188,12 +194,6 @@ Format des logs :
 2025-10-20 14:32:00 | Arrêt monitoring LSASS
 ```
 
-
-# 🚀 Activer Credential Guard via GPO
-
-# 🚀 Activer RunAsPPL
-
-# 🚀 Bloquer vol de credentials depuis LSASS
 
 ## Indicateurs de compromission
 
@@ -350,6 +350,14 @@ Pour toute question ou assistance technique.
 **Date** : 2025-10-20
 **Licence** : Usage interne Ayi NEDJIMI Consultants
 
+
+- --
+
+<div align="center">
+
+**⭐ Si ce projet vous plaît, n'oubliez pas de lui donner une étoile ! ⭐**
+
+</div>
 
 - --
 
