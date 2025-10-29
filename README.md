@@ -19,6 +19,10 @@ Le processus `lsass.exe` stocke en mémoire :
 Les attaquants utilisent des outils comme **Mimikatz**, **ProcDump**, ou **Comsvcs.dll** pour dumper la mémoire de LSASS et extraire ces secrets.
 
 
+# 🚀 Télécharger Sysmon depuis Sysinternals
+
+# 🚀 Installer avec configuration standard
+
 ## ✨ Fonctionnalités principales
 
 ### 1. Détection de processus suspects
@@ -56,10 +60,6 @@ Pour chaque activité suspecte détectée :
 - Export CSV UTF-8 avec BOM pour Excel
 - Format : Horodatage;Processus;PID;Type;Utilisateur;Alertes
 
-
-# 🚀 Télécharger Sysmon depuis Sysinternals
-
-# 🚀 Installer avec configuration standard
 
 ## Techniques de détection
 
@@ -141,6 +141,12 @@ cl.exe /EHsc /O2 /W3 /std:c++17 /D UNICODE /D _UNICODE LSASSProtectorMonitor.cpp
 ```
 
 
+# 🚀 Activer Credential Guard via GPO
+
+# 🚀 Activer RunAsPPL
+
+# 🚀 Bloquer vol de credentials depuis LSASS
+
 ## 🚀 Utilisation
 
 ### Interface graphique
@@ -170,12 +176,6 @@ Configuration Sysmon pour LSASS :
 </Sysmon>
 ```
 
-
-# 🚀 Activer Credential Guard via GPO
-
-# 🚀 Activer RunAsPPL
-
-# 🚀 Bloquer vol de credentials depuis LSASS
 
 ## Logging
 
@@ -350,6 +350,14 @@ Pour toute question ou assistance technique.
 **Date** : 2025-10-20
 **Licence** : Usage interne Ayi NEDJIMI Consultants
 
+
+- --
+
+<div align="center">
+
+**⭐ Si ce projet vous plaît, n'oubliez pas de lui donner une étoile ! ⭐**
+
+</div>
 
 - --
 
